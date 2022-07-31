@@ -1,38 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.lmd-plus {
+  background-color: #007bff;
+  padding: 10px;
   text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 2px;
+  border: transparent;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-warning {
+  background-color: #ffc106;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-primary {
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  height: 60px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.nav {
+  display: inherit;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lmd-nav-inner {
+  list-style-type: none;
+}
+.lmd-nav-inner li {
+  display: inline-block;
+}
+.lmdInput {
+  padding: 13px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+}
+.lmd-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+.FieldOutPut {
+  display: flex;
+  align-items: center;
+}
+.inputValue {
+  padding: 8px 10px;
+  border: solid 1px #ccc;
+  width: 200px;
+  margin: 4px;
+  border-radius: 5px;
+}
+.lmdDeleteBtn {
+  background-color: #f7080c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
 }
